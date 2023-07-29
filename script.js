@@ -4,4 +4,7 @@ document.querySelector('#click').addEventListener('click',function(){
     setTimeout(function(){
         document.querySelector('#head').textContent = '';
     },1000);
-})
+});
+
+
+
