@@ -17,12 +17,15 @@ body{
 } */
 
 .position{
-    width: 50px;
-    height: 50px;
-    border: 1px solid black;
+   
 }
 
 .top , .middle , .end {
     display: flex;
 
+}
+
+button{
+    width: 100px;
+    height: 100px;
 }
