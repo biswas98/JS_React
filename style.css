@@ -2,12 +2,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .container{
-    width: 100px;
-    height: 100px;
+    width: 400px;
+    height: 400px;
     background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
 }
 
