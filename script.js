@@ -1,9 +1,10 @@
+let player = 'o';
 
-document.querySelector('#click').addEventListener('click',function(){
-    document.querySelector('#head').textContent = 'You have clicked the btn';
-    setTimeout(function(){
-        document.querySelector('#head').textContent = '';
-    },1000);
+document.querySelector('.b1').addEventListener('click',function(){
+    if(player == 'o')
+        document.querySelector('.b1').innerHTML = '<img src="./resources/o.png" alt="o.png">';
+    else    
+        document.querySelector('.b1').innerHTML = '<img src="./resources/x.png" alt="x.png">';
 });
 
 
