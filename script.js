@@ -1,4 +1,4 @@
-let player = 'o';
+let player = 'x';
 
 
 const x_o_Display = (player) => {
